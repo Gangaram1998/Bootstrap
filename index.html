@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Boot One</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: red;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./images/techgunlogo.png" width="50px" alt=""></a>
+            <button class="navbar-toggler btn-outline-light" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Client</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Web Developement</a></li>
+                            <li><a class="dropdown-item" href="#">App Developement</a></li>
+                            <li><a class="dropdown-item" href="#">SEO</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- slider -->
+    <div id="carouselExampleCaptions" class="carousel slide  w-500">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="img-fluid"
+                    src="./images/web-development-coding-programming-internet-technology-business-concept-web-development-coding-programming-internet-technology-122741764.jpg"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="img-fluid" src="images/programming evolution.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="img-fluid"
+                    src="./images//web-development-coding-programming-internet-technology-business-concept-web-development-coding-programming-internet-technology-122741764.jpg"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <div class="container-fluid">
+        <!-- tagline -->
+        <div class="row mt-5 mb-2">
+            <div class="col-12">
+                <h3 class="display-6 text-center ">Lorem ipsum dolor sit amet consectetur adipisicing<br />
+                    elit. Quod, quidem?</h3>
+            </div>
+        </div>
+
+        <!-- features -->
+        <div class="row justify-content-evenly text-center mt-5 mb-5">
+            <div class="col-md-3">
+                <h1><i class="bi bi-file-code-fill text-primary"></i></h1>
+                <h5>Build for developers</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, fugit!</p>
+            </div>
+            <div class="col-md-3">
+                <h1><i class="bi bi-chat-square-text-fill text-danger"></i></h1>
+                <h5>Build for developers</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, fugit!</p>
+            </div>
+            <div class="col-md-3">
+                <h1><i class="bi bi-chat-square-text-fill text-success"></i></h1>
+                <h5>Build for developers</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, fugit!</p>
+            </div>
+        </div>
+        </hr>
+
+        <!-- growth -->
+        <div class=" row justify-content-evenly mt-10 mb-10">
+            <div class="col-md-5">
+                <img src="./images/images.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-5 mt-5 p-2">
+                <h5>Website Development</h5>
+                <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25"
+                    aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-success" style="width: 25%"></div>
+                </div>
+                <h5>App Development</h5>
+                <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0"
+                    aria-valuemax="100">
+                    <div class="progress-bar bg-info" style="width: 50%"></div>
+                </div>
+                <h5>Software Developement</h5>
+                <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75"
+                    aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-warning" style="width: 75%"></div>
+                </div>
+                <h5>SEO</h5>
+                <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100"
+                    aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-danger" style="width: 100%"></div>
+                </div>
+                <h5>Marketing</h5>
+                <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100"
+                    aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-primary" style="width: 100%"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- contact -->
+
+        <div class="row justify-content-evenly pb-2 pt-5" style="background-color: #f1f1f1;">
+
+            <div class="col-md-5 mt-5">
+                <h3 class="mb-4">Contact Form</h3>
+                <form>
+                    <div class="mb-3">
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1">
+                        </div>
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-danger">Submit</button>
+                </form>
+            </div>
+            <div class="col-md-5 mt-5">
+                <h3 class="mb-4">Address</h3>
+                <p>Asagaon,chandagad
+                    <br>
+                    kolhapur,Maharashtra
+                    <br>
+                    416509
+                    <br>
+                    8421361557
+                </p>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15292.090870215296!2d74.26225569326641!3d16.625628996195843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc0fee4a31341ff%3A0x99e51698c2b29f25!2sKaneri%2C%20Maharashtra%20416234!5e0!3m2!1sen!2sin!4v1681381806373!5m2!1sen!2sin"
+                    width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+        <!-- faq -->
+
+        <div class="row justify-content-around pt-5 pb-5">
+            <div class="col-10 text-center  ">
+                <h3 class="text-center">FAQ</h3>
+                <div class="accordion accordion-flush border mt-5" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                Accordion Item #1
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion
+                                body.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                Accordion Item #2
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion
+                                body. Let's imagine this being filled with some actual content.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                Accordion Item #3
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion
+                                body. Nothing more exciting happening here in terms of content, but just filling up the
+                                space to make it look, at least at first glance, a bit more representative of how this
+                                would look in a real-world application.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- footer -->
+
+        <div class="row justify-content-evenly bg-dark text-white">
+            <div class="col-3 pt-4">
+                <h5 class="pb-2">Tech Gun</h5>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, adipisci incidunt? Quas delectus, quidem, ducimus, distinctio officiis sint nisi nam placeat provident voluptate ratione. Minus inventore fuga pariatur rem placeat!</p>
+            </div>
+            <div class="col-3 pt-4 text-center">
+                <h5>Important Links</h5>
+                <p><a href="" class="link-light text-decoration-none">Home</a></p>
+                <p><a href="" class="link-light text-decoration-none">contact</a></p>
+                <p><a href="" class="link-light text-decoration-none">About Us</a></p>
+                <p><a href="" class="link-light text-decoration-none">Services</a></p>
+            </div>
+            <div class="col-3 pt-4">
+                <h5>Description</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam cupiditate totam nulla quaerat velit aut perferendis accusamus consectetur eum. Praesentium asperiores repellendus voluptatem facere rem molestias doloremque laboriosam quo excepturi.</p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

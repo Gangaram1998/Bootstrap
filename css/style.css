@@ -1,0 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav-link {
+    font-weight: 500 !important;
+    color: rgb(255 255 255); 
+}
